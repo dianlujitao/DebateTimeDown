@@ -144,6 +144,12 @@ define(function(require,exports,module){
         $("#twstopBtn1").click();
         flag2=2;
     });
+    $("#flag2ResetBtn").on('click',function(){
+        $("#twresetBtn1").click();
+        $("#hdresetBtn1").click();
+        $("#resetBtn1_1").click();
+        flag2=2;
+    });
 
     
 
@@ -210,6 +216,12 @@ define(function(require,exports,module){
         $("#stopBtn2_1").click();
         $("#hdstopBtn2").click();
         $("#twstopBtn2").click();
+        flag3=2;
+    });
+    $("#flag3ResetBtn").on('click',function(){
+        $("#twresetBtn2").click();
+        $("#hdresetBtn2").click();
+        $("#resetBtn2_1").click();
         flag3=2;
     });
 
@@ -280,6 +292,12 @@ define(function(require,exports,module){
         $("#twstopBtn3").click();
         flag4=2;
     });
+    $("#flag4ResetBtn").on('click',function(){
+        $("#twresetBtn3").click();
+        $("#hdresetBtn3").click();
+        $("#resetBtn3_1").click();
+        flag4=2;
+    });
 
 
     $("#timedown4").custimer({
@@ -344,6 +362,12 @@ define(function(require,exports,module){
         $("#stopBtn4_1").click();
         $("#hdstopBtn4").click();
         $("#twstopBtn4").click();
+        flag5=2;
+    });
+    $("#flag5ResetBtn").on('click',function(){
+        $("#twresetBtn4").click();
+        $("#hdresetBtn4").click();
+        $("#resetBtn4_1").click();
         flag5=2;
     });
 
@@ -428,6 +452,11 @@ define(function(require,exports,module){
     $("#doubleStopBtn").on('click',function(){
         $("#stopBtn6").click();
         $("#stopBtn6_1").click();
+        flag=2;
+    });
+    $("#doubleResetBtn").on('click',function(){
+        $("#resetBtn6").click();
+        $("#resetBtn6_1").click();
         flag=2;
     });
     
